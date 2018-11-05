@@ -35,6 +35,13 @@
   </parent>
   <modelVersion>4.0.0</modelVersion>
 
+  <repositories>
+    <repository>
+      <id>maven.tempo-db.com</id>
+      <url>http://maven.oschina.net/service/local/repositories/sonatype-public-grid/content/</url>
+    </repository>
+  </repositories>
+
   <properties>
     <thrift.version>0.9.3</thrift.version>
     <elephantbird.version>4.8</elephantbird.version>
